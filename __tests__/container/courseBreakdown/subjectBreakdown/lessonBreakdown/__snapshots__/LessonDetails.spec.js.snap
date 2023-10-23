@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="lesson"
+>
+  <div>
+    Threading the Machine
+  </div>
+  <a
+    href="/lesson"
+    onClick={[Function]}
+  >
+    <button
+      className="lessonViewButton ribbonSlideButton curvedButton"
+      onClick={[Function]}
+    >
+      Slides
+    </button>
+  </a>
+</div>
+`;

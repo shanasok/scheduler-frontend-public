@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redirects when lesson has no pages 1`] = `null`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="lessonSlide"
+>
+  <div
+    className="lessonTitle"
+  >
+    test lesson name
+    <div>
+      <button
+        className="curvedButton"
+        onClick={[Function]}
+      >
+        Edit Slide
+      </button>
+    </div>
+  </div>
+  <div
+    className="pageNumbers"
+  >
+    Page 
+    1
+     of 
+    1
+  </div>
+  <div
+    className="slideChooser"
+  >
+    <div
+      className="arrow inactiveLeftArrow"
+    />
+    <div
+      className="slideBox"
+    >
+      No content on this slide yet
+    </div>
+    <div
+      className="arrow inactiveRightArrow"
+    />
+  </div>
+</div>
+`;

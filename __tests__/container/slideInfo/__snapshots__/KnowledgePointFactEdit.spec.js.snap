@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when fact is given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  <i
+    className="fas fa-save mouseOverBecomeArrow"
+    onClick={[Function]}
+  />
+  <input
+    className="factEditBox"
+    defaultValue="Test Fact"
+    id="factEditBoxundefined"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`renders correctly when fact is not given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  <i
+    className="fas fa-save mouseOverBecomeArrow"
+    onClick={[Function]}
+  />
+  <input
+    className="factEditBox"
+    defaultValue=""
+    id="factEditBoxundefined"
+    onChange={[Function]}
+  />
+</div>
+`;

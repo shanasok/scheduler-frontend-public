@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Test Suite renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    id="layoutDiv"
+  >
+    <header>
+      Shana's Lessons
+    </header>
+    <div
+      id="main"
+    >
+      <div
+        id="mainCourseChooser"
+      >
+        <div
+          id="mainTitle"
+        >
+          Click to see course content, materials and scheduling information.
+        </div>
+        <div
+          id="mainCourses"
+        />
+        <div
+          id="mainBottom"
+        >
+          Main Bottom goes here
+        </div>
+      </div>
+    </div>
+    <footer>
+      My Footer here
+    </footer>
+  </div>
+</div>
+`;

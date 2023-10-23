@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="subject"
+>
+  <div
+    className="subjectName"
+  >
+    Threading the Machine
+  </div>
+  <div
+    className="subjectSummary"
+  >
+    testSummary
+  </div>
+  <div
+    className="lessonRibbon"
+  />
+</div>
+`;

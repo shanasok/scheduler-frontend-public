@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders cancel and save buttons when slideEditMode is true 1`] = `
+<div
+  className="lessonTitle"
+>
+  <div>
+    <div>
+      <button
+        className="cancelEditSlideButton curvedButton"
+        onClick={[Function]}
+      >
+        Cancel Edits
+      </button>
+    </div>
+     
+    <button
+      className="saveEditsButton curvedButton"
+      onClick={[Function]}
+    >
+      Save Changes
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="lessonTitle"
+>
+  <div>
+    <button
+      className="curvedButton"
+      onClick={[Function]}
+    >
+      Edit Slide
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with no pageContent 1`] = `
+<div
+  className="lessonTitle"
+>
+  <div>
+    <button
+      className="curvedButton"
+      onClick={[Function]}
+    >
+      Edit Slide
+    </button>
+  </div>
+</div>
+`;

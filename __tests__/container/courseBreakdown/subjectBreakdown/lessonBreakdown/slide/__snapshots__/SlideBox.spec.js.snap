@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="slideBox"
+>
+  
+  <div
+    className="knowledgePoint"
+  >
+    
+     
+    <strong>
+      ● Test Fact
+    </strong>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with no pageContent 1`] = `
+<div
+  className="slideBox"
+>
+  No content on this slide yet
+</div>
+`;

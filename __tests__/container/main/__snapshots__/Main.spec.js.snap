@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="main"
+>
+  <div
+    id="mainCourseChooser"
+  >
+    <div
+      id="mainTitle"
+    >
+      Click to see course content, materials and scheduling information.
+    </div>
+    <div
+      id="mainCourses"
+    />
+    <div
+      id="mainBottom"
+    >
+      Main Bottom goes here
+    </div>
+  </div>
+</div>
+`;

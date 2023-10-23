@@ -1,0 +1,48 @@
+:root {
+    --courseOption-bg-color: #FCA17D;
+    --courseOption-border-color: #DA627D;
+}
+
+#mainTitle {
+    grid-area: mainTitle;
+}
+
+#mainCourses {
+    grid-area: mainCourses;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+#mainCourseChooser {
+    display: grid;
+    grid-template-areas: 'mainTitle'
+                         'mainCourses'
+                         'mainBottom';
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 30px;
+    margin: 30px;
+}
+
+.courseOption {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--courseOption-bg-color);
+    border: 4px solid var(--courseOption-border-color);
+    padding: 40px;
+    grid-row-gap: 15px;
+}
+
+.optionHeader {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--dark-font-color);
+}
+
+#mainBottom {
+    grid-area: mainBottom;
+}

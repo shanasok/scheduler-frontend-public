@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="courseDetails"
+>
+  <div
+    className="courseName"
+  >
+    testCourseName
+  </div>
+  <div
+    className="courseSummary"
+  >
+    testCourseSummary
+  </div>
+  <div
+    className="subject"
+  >
+    <div
+      className="subjectName"
+    >
+      testSubjectName
+    </div>
+    <div
+      className="subjectSummary"
+    >
+      testSubjectSummary
+    </div>
+    <div
+      className="lessonRibbon"
+    />
+  </div>
+</div>
+`;

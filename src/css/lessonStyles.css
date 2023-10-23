@@ -1,0 +1,101 @@
+.lesson {
+   background-color: var(--courseOption-bg-color);
+   border: 4px solid var(--courseOption-border-color);
+   width: 200px;
+   justify-self: center;
+   display: grid;
+   grid-template-areas: 'ribbonLessonName'
+                        'ribbonSlideButton';
+}
+
+.ribbonLessonName{
+   grid-area: ribbonLessonName;
+}
+
+.ribbonSlideButton{
+   grid-area: ribbonSlideButton;
+}
+
+.lessonSlide {
+   display: grid;
+   grid-template-areas: 'lessonHeader'
+   'pageNumbers'
+   'slideChooser';
+   grid-template-rows: auto auto 1fr;
+   margin: 15px;
+}
+
+.lessonHeader {
+   grid-area: lessonHeader;
+   display: grid;
+   grid-template-areas: 'lessonHeaderTitle'
+                        'lessonHeaderButtons';
+   margin: 5px;
+}
+
+.lessonHeaderTitle {
+   grid-area: lessonHeaderTitle;
+   font-size: x-large;
+   font-weight: 500;
+}
+
+.lessonHeaderButtons {
+   grid-area: lessonHeaderButtons;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-items: center;
+   justify-content: center;
+}
+
+.pageNumbers {
+   grid-area: pageNumbers;
+   margin: 5px;
+}
+
+.slideChooser {
+   grid-area: slideChooser;
+   display: grid;
+   grid-template-areas: 'leftArrow slideBox rightArrow';
+   grid-template-columns: auto 1fr auto;
+   align-items: center;
+   margin: 20px;
+}
+
+.arrow {
+   width: 0;
+   height: 0;
+   margin: 5px;
+   border-top: 20px solid transparent;
+   border-bottom: 20px solid transparent;
+}
+
+
+.activeLeftArrow {
+   grid-area: leftArrow;
+   border-right: 20px solid var(--header-bg-color);
+}
+
+.inactiveLeftArrow {
+   grid-area: leftArrow;
+   border-right: 20px solid var(--grayed-out-button);
+}
+
+.activeRightArrow {
+   grid-area: rightArrow;
+   border-left: 20px solid var(--header-bg-color);
+}
+
+.inactiveRightArrow {
+   grid-area: rightArrow;
+   border-left: 20px solid var(--grayed-out-button);
+}
+
+
+.slideBox {
+   grid-area: slideBox;
+   border: 4px solid var(--header-border-color);
+   outline: 4px solid var(--header-bg-color);
+   margin: 3px;
+   padding: 5px;
+   height: 100%;
+}

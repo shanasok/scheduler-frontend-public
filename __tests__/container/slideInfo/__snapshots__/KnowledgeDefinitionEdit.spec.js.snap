@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when definition is given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  <i
+    className="fas fa-save mouseOverBecomeArrow"
+    onClick={[Function]}
+  />
+  <input
+    className="definitionTermEditBox"
+    defaultValue="test term"
+    onChange={[Function]}
+  />
+   =
+  <input
+    className="definitionExplanationEditBox"
+    defaultValue="test explanation"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`renders correctly when definition is not given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  <i
+    className="fas fa-save mouseOverBecomeArrow"
+    onClick={[Function]}
+  />
+  <input
+    className="definitionTermEditBox"
+    defaultValue=""
+    onChange={[Function]}
+  />
+   =
+  <input
+    className="definitionExplanationEditBox"
+    defaultValue=""
+    onChange={[Function]}
+  />
+</div>
+`;

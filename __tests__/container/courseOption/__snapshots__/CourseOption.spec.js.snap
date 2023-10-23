@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="courseOption"
+>
+  <div
+    className="optionHeader"
+  >
+    java
+  </div>
+  <div
+    className="optionSummary"
+  >
+    java summary
+  </div>
+  <script
+    type="application/ld+json"
+  >
+    {"@context":"http://schema.org","@type":"Course","name":"java","description":"java summary"}
+  </script>
+  <a
+    href="/course"
+    onClick={[Function]}
+  >
+    <button
+      className="courseContentButton"
+    >
+      View Course Content
+    </button>
+  </a>
+</div>
+`;

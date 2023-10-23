@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readonly renders correctly when fact is not given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  
+   
+  <strong>
+    
+  </strong>
+</div>
+`;
+
+exports[`renders correctly when fact is given 1`] = `
+<div
+  className="knowledgePoint"
+>
+  
+   
+  <strong>
+    ● Test Fact
+  </strong>
+</div>
+`;

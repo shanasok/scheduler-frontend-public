@@ -1,0 +1,56 @@
+:root {
+    --header-bg-color: #DA627D;
+    --header-border-color: #FCA17D;
+    --main-bg-color: #F9DBBD;
+    --really-dark-font-color: #242038;
+    --dark-font-color: #3a364c;
+    --mid-font-color: #504d60;
+    --grayed-out-button: #c6cacc;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--really-dark-font-color);
+}
+
+#layoutDiv {
+    display: grid;
+    grid-template-areas: 'header'
+                         'main'
+                         'footer';
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    width: calc(100% - 25px);
+    background-color: var(--header-bg-color);
+    border: 4px solid var(--header-border-color);
+    outline: 4px solid var(--header-bg-color);
+    margin: 3px;
+    padding: 5px;
+    color: var(--main-bg-color);
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: -1px 1px 2px #000,
+                 1px 1px 2px #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+#main {
+    grid-area: main;
+    /*align-content: space-around;*/
+    display: grid;
+    align-self: start;
+    height: 100%;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--header-border-color);
+    color: var(--mid-font-color);
+    padding: 5px;
+}

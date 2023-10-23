@@ -1,0 +1,23 @@
+.knowledgePoint {
+    margin: 7px;
+}
+
+.definitionTermEditBox {
+    width: 45%;
+    background-color: floralwhite;
+}
+
+.definitionExplanationEditBox {
+    width: 45%;
+    background-color: floralwhite;
+}
+
+
+.factEditBox {
+    width: 93.5%;
+    background-color: floralwhite;
+}
+
+.mouseOverBecomeArrow:hover {
+    color: gray;
+}

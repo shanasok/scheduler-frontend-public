@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<script
+  type="application/ld+json"
+>
+  {"@context":"http://schema.org","@type":"Course","name":"testCourseName","description":"testCourseSummary"}
+</script>
+`;

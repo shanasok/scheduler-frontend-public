@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when setEditSlide boolean is false 1`] = `
+<div>
+  <button
+    className="curvedButton"
+    onClick={[Function]}
+  >
+    Edit Slide
+  </button>
+</div>
+`;
